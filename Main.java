@@ -4,17 +4,17 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        int s;
+        int b;
         Scanner s = new Scanner(System.in);
        
-        s = s.nextInt();
-        if(s> 0)
+        b = s.nextInt();
+        if(b> 0)
         {
-            System.out.println("The given number "+s+" is Positive");
+            System.out.println("The given number "+b+" is Positive");
         }
-        else if(s < 0)
+        else if(b < 0)
         {
-            System.out.println("The given number "+s+" is Negative");
+            System.out.println("The given number "+b+" is Negative");
         }
         else
         {
