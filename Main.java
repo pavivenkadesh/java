@@ -1,24 +1,19 @@
 import java.util.Scanner;
-import java.util.*;
-public class Main 
+ 
+class Main
 {
-    public static void main(String[] args) 
-    {
-        int b;
-        Scanner s = new Scanner(System.in);
-       
-        b = s.nextInt();
-        if(b> 0)
-        {
-            System.out.println("The given number "+b+" is Positive");
-        }
-        else if(b < 0)
-        {
-            System.out.println("The given number "+b+" is Negative");
-        }
-        else
-        {
-            System.out.println("The given number is zero ");
-        }
-    }
+   public static void main(String args[])
+   {
+      int x;
+      
+      Scanner in = new Scanner(System.in);
+      x = in.nextInt();
+     
+      if (x % 2 == 0)
+         System.out.println("The number is even.");
+      else if(x<0) 
+         System.out.println("Invalid");  
+      else 
+         System.out.println("The number is odd.");
+   }
 }
