@@ -4,12 +4,12 @@ class Sample
 {
 public static void main(String args[])
 {
-int x;
+int a;
 Scanner sc=new Scanner(System.in);
-x=sc.nextInt();
-if(x%2==0)
+a=sc.nextInt();
+if(a%2==0)
 System.out.println("Even");
-else if(x%2==1)
+else if(a%2==1)
 System.out.println("Odd");
   else
     System.out.println("Invalid");
